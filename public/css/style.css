@@ -2035,6 +2035,10 @@ span.search_close svg path {
 .clv_footer_wrapper .footer_block .footer_logo {
   margin-bottom: 18px;
 }
+
+.clv_footer_wrapper .footer_block .footer_logo a img{
+  height: 13vh !important;
+} 
 .clv_footer_wrapper .footer_block p {
   color: #ffffff;
   margin-bottom: 30px;
@@ -11409,6 +11413,7 @@ span.success_close svg path {
   }
   .clv_footer_wrapper .footer_block .footer_logo a img {
     max-width: 100%;
+    height: 13vh;
   }
 }
 @media (max-width: 768px) and (min-width: 768px) {
@@ -12023,7 +12028,7 @@ span.success_close svg path {
     display: block;
   }
   .index_v3 .clv_right_header .clv_menu {
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
   }
   .index_v3
     .clv_right_header
@@ -13021,7 +13026,7 @@ span.success_close svg path {
     height: 35px;
   }
   .index_v3 .clv_right_header .clv_menu {
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
   }
 }
 
@@ -13062,7 +13067,7 @@ span.success_close svg path {
     display: none !important;
   }
   .cart_toggle{
-    display: none !important;
+    display: none;
   }
 }
 
@@ -13073,3 +13078,8 @@ span.success_close svg path {
   height: 13vh;
   opacity: 0.8;
 }
+
+.navbar-logo-windson {
+  height: 13vh !important;
+}
+
